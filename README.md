@@ -11,7 +11,7 @@ Steps to deploy
 1. Clone the repository
 2. Open VSCode Terminal
 3. run -> composer install (install laravel dependencies)
-4. run -> npm install (install node dependencies)
+4. run -> npm install && npm run build (install & run node dependencies) if it doesn't work try running one at a time
 5. create .env file and copy the .env.example
 6. run -> php artisan migrate (migrate database)
 7. run -> php artisan db:seed (run database seeders)
